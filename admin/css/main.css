@@ -1,0 +1,132 @@
+.all{
+  margin: 10px auto;
+  padding: 0; 
+  width: 90%; 
+}
+body {
+    background: url("../images/body-bg.PNG");
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+} 
+.body{
+    height: 400px;
+}
+a{
+    color: blue;
+}
+.header{
+    -moz-box-shadow:    1px 2px 3px 2px #555;
+    -webkit-box-shadow: -1px 2px 5px 2px #555;
+    box-shadow:         1px 2px 3px 2px #555;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #00696C;
+    font-size: 11pt;
+    font-weight: bold;
+    height: 50px;
+}
+.shadow{
+     -moz-box-shadow:    inset 0 0 8px #555;
+     -webkit-box-shadow: inset 0 0 8px #555;
+     box-shadow:         inset 0 0 8px #555;
+     padding: 10px;
+}
+.shadows{
+     box-shadow:0px 5px 5px #555;
+	-moz-box-shadow:0px 5px 5px #555;
+	-webkit-box-shadow:0px 5px 5px #555;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.active{
+    background-color: white;
+}
+.content{
+     box-shadow:0px 5px 5px #555;
+	-moz-box-shadow:0px 5px 5px #555;
+	-webkit-box-shadow:0px 5px 5px #555;
+    background-color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: #348017;
+}
+ul li{
+    color: black;
+}
+#accordion{
+   height: auto;
+   background-color: #A9A9A9;
+   color: white;
+   margin-bottom: 10px;
+}
+#accordion a{
+    color:black;
+}
+#accordion a:hover{
+    color: #00FF00;
+}
+.accordion-content {
+	font-size: 1em;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #0C090A;
+    -webkit-box-shadow: 0 6px 6px -6px black;
+     -moz-box-shadow: 0 6px 6px -6px black;
+          box-shadow: 0 6px 6px -6px black;
+}
+p a 
+{
+    text-decoration: underline;
+    color: inherit;
+}
+textarea{
+    resize: none;
+}
+ul li a:hover{
+    color: #00FF00;
+}
+ul{
+    list-style-type:none;
+    margin:0 auto;
+    padding:5px 0px;
+    display:inline;
+}
+ul.navigation li{
+    display:inline;
+    padding-right: 10px;
+    margin: auto;
+}
+ul.navigation li a{
+    color: #4863A0;
+    font-size: 1em;
+}
+ul.navigation li a:hover{
+   text-decoration: none;
+   color: #E42217;
+   font-size: 1.1em;
+}
+ul.navigation li a.active{
+   color: #E42217;
+}
+ul.navigation li.active{
+   border-bottom: 3px solid #00FF00;
+   color: white;
+}
+.error{
+    color: red;
+    padding:10px;
+}
+.success{
+    color: 	#32CD32;
+    padding:10px;
+}
+/********footer*********/
+.footer{
+    font-size: 1em;
+    text-align: center;
+    background-color: white;
+    color: #89C35C;
+}
